@@ -1,14 +1,28 @@
-# Python virtual environment
+# Python virtual environments
 venv/
+.env/
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Streamlit secret files
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit specific
 .streamlit/
 
-# OS Files
+# OS-specific files
 .DS_Store
+Thumbs.db
 
-# Git LFS tracking for models
+# Git LFS tracked files
 *.pth
 
+# Logs
+*.log
+
+# VSCode settings (optional)
+.vscode/
