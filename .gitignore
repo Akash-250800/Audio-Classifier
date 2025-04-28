@@ -1,1 +1,14 @@
-"venv/" 
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Streamlit secret files
+.streamlit/
+
+# OS Files
+.DS_Store
+
+# Git LFS tracking for models
+*.pth
+
